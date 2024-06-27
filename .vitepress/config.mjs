@@ -3,13 +3,13 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   head: [
-    ['link', { rel: 'icon', type: "image/png", href: './public/logo.png' }]
+    ['link', { rel: 'icon', type: "image/png", href: '/logo.png' }]
   ],
   title: "S.G.H EVE online",
   description: "S.G.H EVE online 在线文档 | Star Guardian Home",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: './public/logo.png',
+    logo: '/logo.png',
     nav: [
       { text: '主页', link: '/' },
       { text: '教程', link: '/docs/guide/introduction' }
