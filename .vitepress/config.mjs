@@ -30,9 +30,9 @@ export default defineConfig({
           { text: '测试页面2', link: '/docs/guide/api-examples' }]
       }
     ],
-    socialLinks: [
-      { icon: 'github', link: '/' }
-    ],
+    // socialLinks: [
+    //   { icon: 'github', link: 'https://github.com/SGH-EVE/sgh-eve.github.io' }
+    // ],
     // 添加自定义文本
     docFooter: {
       prev: '上一页',
