@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /docs/guide/introduction
+      link: /docs/guide/NewFish
     - theme: alt
       text: S.G.H Hub
       link: /

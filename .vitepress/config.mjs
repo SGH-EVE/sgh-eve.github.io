@@ -12,16 +12,16 @@ export default defineConfig({
     logo: '/logo.png',
     nav: [
       { text: '主页', link: '/' },
-      { text: '教程', link: '/docs/guide/introduction' }
+      { text: '教程', link: '/docs/guide/NewFish' }
     ],
     sidebar: [
       {
         text: 'EVE online',
         items: [
-          { text: '萌新入坑须知', link: '/docs/guide/introduction' },
+          { text: '萌新入坑须知', link: '/docs/guide/NewFish' },
           { text: '老RPG玩家入坑须知', link: '/docs/guide/oldschool' },
-          { text: '测试页面1', link: '/docs/guide/markdown-examples' },
-          { text: '测试页面2', link: '/docs/guide/api-examples' }
+          // { text: '测试页面1', link: '/docs/guide/markdown-examples' },
+          // { text: '测试页面2', link: '/docs/guide/api-examples' }
         ]
       }
     ],
