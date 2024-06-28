@@ -12,20 +12,24 @@ export default defineConfig({
     logo: '/logo.png',
     nav: [
       { text: '主页', link: '/' },
-      { text: '教程', link: '/docs/guide/NewFish' }
+      { text: '指南', link: '/docs/guide/Introduction' }
     ],
     sidebar: [
+      { text: '开始', link: '/docs/guide/Introduction' },
       {
-        text: 'EVE online',
+        text: '游戏介绍',
+        collapsed: true,
+        items: [{ text: '萌新入坑须知', link: '/docs/guide/NewFish' },
+        { text: '这是啥', link: '/docs/guide/oldschool' },]
+      },
+      {
+        text: 'BBBBBBBBBBB',
+        collapsed: true,
         items: [
-          { text: '萌新入坑须知', link: '/docs/guide/NewFish' },
-          { text: '老RPG玩家入坑须知', link: '/docs/guide/oldschool' },
-          // { text: '测试页面1', link: '/docs/guide/markdown-examples' },
-          // { text: '测试页面2', link: '/docs/guide/api-examples' }
-        ]
+          { text: '测试页面1', link: '/docs/guide/markdown-examples' },
+          { text: '测试页面2', link: '/docs/guide/api-examples' }]
       }
     ],
-
     socialLinks: [
       { icon: 'github', link: '/' }
     ],

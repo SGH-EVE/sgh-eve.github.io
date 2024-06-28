@@ -3,14 +3,14 @@
 layout: home
 
 hero:
-  name: "EVE online 教程文档"
+  name: "EVE online 游戏指南"
   text: "Star Guardian Home"
   tagline: "星之守护者"
   title: "S.G.H EVE online"
   actions:
     - theme: brand
       text: 开始阅读
-      link: /docs/guide/NewFish
+      link: /docs/guide/Introduction
     - theme: alt
       text: S.G.H Hub
       link: /
@@ -28,7 +28,7 @@ features:
     details: 玩家可以参与PVP（玩家对玩家）和PVE（玩家对环境）的战斗。游戏中有多种类型的飞船和武器，战斗策略非常重要。
   - title: 势力战争
     details: 游戏中的各大帝国和势力之间有着复杂的关系，玩家可以参与势力战争，影响整个宇宙的政治格局。
-  - title: 公司与联盟
+  - title: 公司联盟
     details: 玩家可以创建或加入公司和联盟，与其他玩家合作或竞争。
   - title: 政权斗争
     details: 游戏中存在复杂的政治系统，玩家可以通过发起战争、谈判和间谍活动来争夺控制权。

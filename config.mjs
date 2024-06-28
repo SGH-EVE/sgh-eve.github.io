@@ -12,7 +12,7 @@ export default defineConfig({
     logo: './public/logo.png',
     nav: [
       { text: '主页', link: '/' },
-      { text: '教程', link: '/docs/guide/introduction' }
+      { text: '指南', link: '/docs/guide/introduction' }
     ],
     sidebar: [
       {
